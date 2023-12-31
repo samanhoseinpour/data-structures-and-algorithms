@@ -6,7 +6,7 @@ int main()
     start = 0;
     end = 20;
 
-    for(int i = 0; i <= end; i++) {
+    for(int i = start; i <= end; i++) {
         if(i % 2 == 0) {
             printf("%2d is even, \n", i);
         }
